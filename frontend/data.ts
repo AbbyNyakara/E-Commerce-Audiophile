@@ -1,6 +1,19 @@
 import { Product } from './src/types/Product'
 
-export const sampleProducts: Product[] = [
+export const earphones: Product[] = [
+  {
+    name: 'YX1 Wireless Earphones',
+    slug: 'yx1-wireless-headphones',
+    description: 'Wireless headphones',
+    price: 599,
+    image: './public/images/shared/desktop/image-xx59-headphones.jpg',
+    rating: 0,
+    numReviews: 0,
+    category: 'Speakers',
+  },
+]
+
+export const headPhones: Product[] = [
   {
     name: 'XX99 Mark II Headphones',
     slug: 'mark-2-headphones',
@@ -31,6 +44,9 @@ export const sampleProducts: Product[] = [
     numReviews: 0,
     category: 'Headphones',
   },
+]
+
+export const speakers: Product[] = [
   {
     name: 'ZX9 Speaker',
     slug: 'zx9-speaker',
@@ -47,16 +63,6 @@ export const sampleProducts: Product[] = [
     description: 'small sized Speaker',
     price: 3500,
     image: './public/images/shared/desktop/image-zx7-speaker.jpg',
-    rating: 0,
-    numReviews: 0,
-    category: 'Speakers',
-  },
-  {
-    name: 'YX1 Wireless Earphones',
-    slug: 'yx1-wireless-headphones',
-    description: 'Wireless headphones',
-    price: 599,
-    image: './public/images/shared/desktop/image-xx59-headphones.jpg',
     rating: 0,
     numReviews: 0,
     category: 'Speakers',
