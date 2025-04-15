@@ -1,19 +1,10 @@
 import './App.css'
-import { headPhones } from '../data'
+import Button from '../src/components/common/Button/Button'
 
 function App() {
   return (
     <div>
-      <main>
-        <ul>
-          {headPhones.map((product) => (
-            <li>
-              <h2>{product.name}</h2>
-              <img src={product.image} alt={product.name} />
-            </li>
-          ))}
-        </ul>
-      </main>
+      <Button title='see product' />
     </div>
   )
 }
