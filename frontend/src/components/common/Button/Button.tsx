@@ -2,7 +2,7 @@ import './button.css'
 
 interface ButtonProps {
   title: string
-  onClick?: () => void // Adding the ? makes it optional for flexibility
+  onClick?: () => void
   className?: string
 }
 
