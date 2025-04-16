@@ -1,10 +1,17 @@
 import './App.css'
-import Button from '../src/components/common/Button/Button'
+import Card from '../src/components/common/product_card/card'
+import { headPhones } from '../data'
 
 function App() {
   return (
     <div>
-      <Button title='see product' className={'button'} />
+      <ul>
+        {headPhones.map((product) => (
+          <li key={product.slug}>
+            <Card product={product} />
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
