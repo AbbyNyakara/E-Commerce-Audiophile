@@ -11,6 +11,7 @@ export const earPhones: Product[] = [
     rating: 0,
     numReviews: 0,
     category: 'Speakers',
+    countInStock: 15,
   },
 ]
 
@@ -25,6 +26,7 @@ export const headPhones: Product[] = [
     rating: 0,
     numReviews: 0,
     category: 'Headphones',
+    countInStock: 15,
   },
   {
     name: 'XX59 Headphones',
@@ -36,6 +38,7 @@ export const headPhones: Product[] = [
     rating: 0,
     numReviews: 0,
     category: 'Headphones',
+    countInStock: 15,
   },
   {
     name: 'XX99 Mark I Headphones',
@@ -47,6 +50,7 @@ export const headPhones: Product[] = [
     rating: 0,
     numReviews: 0,
     category: 'Headphones',
+    countInStock: 15,
   },
 ]
 
@@ -61,6 +65,7 @@ export const speakers: Product[] = [
     rating: 0,
     numReviews: 0,
     category: 'Speakers',
+    countInStock: 15,
   },
   {
     name: 'ZX7 Speaker',
@@ -72,5 +77,6 @@ export const speakers: Product[] = [
     rating: 0,
     numReviews: 0,
     category: 'Speakers',
+    countInStock: 15,
   },
 ]

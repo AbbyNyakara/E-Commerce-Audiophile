@@ -7,4 +7,5 @@ export type Product = {
   rating: number
   numReviews: number
   category: string
+  countInStock: number
 }

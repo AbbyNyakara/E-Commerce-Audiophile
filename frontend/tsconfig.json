@@ -7,6 +7,6 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "checkJs": true,
-    "tsx": "react-ts"
+    "jsx": "react-jsx"
   }
 }

@@ -1,12 +1,15 @@
 import './App.css'
-import Button from '../src/components/common/Button/Button'
+import HeadPhones from './components/products/headphones/headphones'
+import Footer from './components/common/footer/Footer'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Button title='see product' />
+      <HeadPhones />
+      <Footer />
     </div>
   )
 }
+
 
 export default App
