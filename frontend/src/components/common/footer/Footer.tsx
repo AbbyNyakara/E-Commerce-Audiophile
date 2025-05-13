@@ -18,7 +18,7 @@ const Footer = () => {
 
       <div className='footer_right'>
         <nav className={styles.footerNavigation}>
-          <ul>
+          <ul className={styles.Footer_links}>
             <li>Home</li>
             <li>HeadPhones</li>
             <li>Speakers</li>

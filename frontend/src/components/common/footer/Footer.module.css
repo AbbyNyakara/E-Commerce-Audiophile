@@ -1,5 +1,8 @@
 .footer {
   background-color: var(--color-dark);
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 6rem;
 }
 
 .brand {
@@ -12,4 +15,26 @@
     opacity: 0.5;
 }
 
+.Footer_links {
+    display: flex;
+    gap: 2rem;
+}
+/* 
+.footerNavigation {
+    
+} */
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: var(--color-text-white);
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+.socials {
+    display: flex;
+    gap: 1.2rem;
+}
