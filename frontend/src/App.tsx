@@ -1,19 +1,15 @@
 import './App.css'
-import Card from '../src/components/common/product_card/card'
-import { headPhones } from '../data'
+import HeadPhones from './components/products/headphones/headphones'
+import Footer from './components/common/footer/Footer'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <ul>
-        {headPhones.map((product) => (
-          <li key={product.slug}>
-            <Card product={product} />
-          </li>
-        ))}
-      </ul>
+      <HeadPhones />
+      <Footer />
     </div>
   )
 }
+
 
 export default App
