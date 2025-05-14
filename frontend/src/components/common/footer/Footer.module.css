@@ -1,8 +1,6 @@
 .footer {
   background-color: var(--color-dark);
-  display: flex;
-  gap: 2rem;
-  padding: 3rem 6rem;
+  padding: 3rem 8rem;
 }
 
 .brand {
@@ -18,14 +16,24 @@
 .Footer_links {
     display: flex;
     gap: 2rem;
+    letter-spacing: 2px;
+    font-weight: 1.3rem;
 }
-/* 
-.footerNavigation {
-    
-} */
+.footer_top, 
+.footer_middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
 
 ul {
     list-style-type: none;
+}
+
+.description {
+    max-width: 40rem;
 }
 
 li {
@@ -37,4 +45,7 @@ li {
 .socials {
     display: flex;
     gap: 1.2rem;
+    margin-left: auto;
 }
+
+
