@@ -1,0 +1,18 @@
+.navbar {
+  background-color: var(--color-dark);
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.navlinks a {
+  color: var(--color-text-white);
+  letter-spacing: 1.5px;
+  font-weight:500;
+  font-size: 0.9rem;
+}
