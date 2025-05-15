@@ -2,14 +2,14 @@ import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <header className={styles.navbar}>
+    <div className={styles.customNavbar}>
       <div className={styles.nav_logo}>
         <a href='#'>
           <img src='./assets/shared/desktop/logo.svg' />
         </a>
       </div>
 
-      <ul className={styles.navlinks}>
+      <ul className={styles.nav_links}>
         <li>
           <a href='#'>home</a>
         </li>
@@ -26,7 +26,7 @@ const Header = () => {
       <div className={styles.cart_section}>
         <img src='./assets/shared/desktop/icon-cart.svg' alt='Cart' />
       </div>
-    </header>
+    </div>
   )
 }
 
