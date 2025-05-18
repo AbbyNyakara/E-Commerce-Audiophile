@@ -1,4 +1,4 @@
-import { headPhones } from '../../../../data'
+import { headPhones } from '../../../../data/product_data'
 import Card from '../../common/product_card/card'
 
 const HeadPhones = () => {
