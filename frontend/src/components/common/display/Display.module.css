@@ -1,4 +1,11 @@
 .displayCard {
   max-width: 50px;
+  background-color: black;
+}
 
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
 }

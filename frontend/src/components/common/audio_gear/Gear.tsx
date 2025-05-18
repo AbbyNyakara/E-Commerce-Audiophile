@@ -5,7 +5,8 @@ const Gear = () => {
     <div className={styles.gear_container}>
       <div className={styles.gear_left}>
         <h2 className={styles.gear_title}>
-          bringing you the <br/><span>best</span> audio gear
+          bringing you the <br />
+          <span>best</span> audio gear
         </h2>
         <p className={styles.gear_description}>
           Located at the heart of New York City, Audiophile is the premier store
