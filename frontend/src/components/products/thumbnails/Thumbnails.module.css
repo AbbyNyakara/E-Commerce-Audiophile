@@ -1,6 +1,6 @@
 .thumbnails {
   display: flex;
   gap: 3rem;
-  margin-top: 5rem;
+  margin: 5rem 0;
   justify-content: center;
 }
