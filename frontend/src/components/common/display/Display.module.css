@@ -1,0 +1,35 @@
+.displayCard {
+  background-color: var(--color-bg-grey);
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  min-width: 300px;
+  min-height: 200px;
+  padding:  7rem 1rem 2rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+}
+
+.link {
+  color: var(--color-text-dark);
+  opacity: 0.5;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.displayImg {
+  max-width: 15rem;
+  position: absolute;
+  transform: translateX(50%);
+  top:  -3rem;
+  right: 50%;
+  bottom: 0;
+  width: 190px;
+  z-index: 1;
+}
+
