@@ -13,7 +13,7 @@ const DisplayThumbnail: FC<DisplayProps> = ({
       <img src={imgSrc} className={styles.displayImg} alt={imgAlt} />
       <h2 className={styles.title}>{title}</h2>
       <a href={linkHref} className={styles.link}>
-        shop <img src={'/assets/shared/desktop/icon-arrow-right.svg'} />
+        shop <img src={'/assets/shared/desktop/icon-arrow-right.svg'} className={styles.thumbnailImg} />
       </a>
     </div>
   )
